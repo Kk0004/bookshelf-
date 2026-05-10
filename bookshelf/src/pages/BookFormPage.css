@@ -1,0 +1,22 @@
+.book-form-page {
+  padding: 48px 0 80px;
+}
+
+.form-page-header {
+  margin-bottom: 32px;
+}
+
+.form-page-header h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.form-page-header p {
+  color: var(--text-muted);
+}
+
+.form-card {
+  max-width: 760px;
+  padding: 32px;
+}

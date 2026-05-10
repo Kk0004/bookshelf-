@@ -1,0 +1,75 @@
+.book-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+@media (max-width: 600px) {
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.cover-preview {
+  margin-top: 8px;
+}
+
+.cover-preview img {
+  height: 120px;
+  border-radius: var(--radius-sm);
+  object-fit: cover;
+  border: 1px solid var(--border);
+}
+
+.rating-row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.form-star {
+  font-size: 28px;
+  color: #d1d5db;
+  cursor: pointer;
+  transition: color 0.1s, transform 0.1s;
+  line-height: 1;
+}
+
+.form-star.filled {
+  color: #f59e0b;
+}
+
+.form-star:hover {
+  transform: scale(1.15);
+}
+
+.rating-clear {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 12px;
+  margin-left: 8px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.rating-clear:hover {
+  color: var(--danger);
+}
+
+.submit-btn {
+  align-self: flex-start;
+  padding: 12px 28px;
+  font-size: 15px;
+  margin-top: 4px;
+}
+
+.submit-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

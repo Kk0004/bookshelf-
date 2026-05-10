@@ -1,0 +1,109 @@
+.catalog-page {
+  padding: 48px 0 64px;
+}
+
+.catalog-header {
+  margin-bottom: 32px;
+}
+
+.catalog-header h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.catalog-header p {
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+.catalog-controls {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-wrap {
+  flex: 1;
+}
+
+.sort-select {
+  padding: 11px 14px;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 14px;
+  background: var(--surface);
+  color: var(--text);
+  outline: none;
+  cursor: pointer;
+  min-width: 160px;
+}
+
+.sort-select:focus {
+  border-color: var(--primary);
+}
+
+.genre-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+
+.genre-btn {
+  padding: 6px 16px;
+  border-radius: 50px;
+  font-size: 13px;
+  font-weight: 500;
+  border: 1.5px solid var(--border);
+  background: var(--surface);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.genre-btn:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.genre-btn.active {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #fff;
+}
+
+.books-grid-catalog {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 24px;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 80px 20px;
+  color: var(--text-muted);
+}
+
+.empty-icon {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+.empty-state h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+@media (max-width: 600px) {
+  .catalog-controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .sort-select {
+    min-width: auto;
+  }
+}

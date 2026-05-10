@@ -1,0 +1,106 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin User",
+      "email": "admin@bookshelf.com",
+      "password": "admin123",
+      "avatar": "AU",
+      "createdAt": "2024-01-01"
+    }
+  ],
+  "books": [
+    {
+      "id": "1",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Classic",
+      "year": 1925,
+      "description": "A story of the mysteriously wealthy Jay Gatsby and his love for the beautiful Daisy Buchanan, told through the eyes of narrator Nick Carraway.",
+      "cover": "https://covers.openlibrary.org/b/id/8432209-L.jpg",
+      "rating": 4.2,
+      "ownerId": "1",
+      "createdAt": "2024-01-10"
+    },
+    {
+      "id": "2",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "genre": "Fiction",
+      "year": 1960,
+      "description": "The unforgettable novel of a childhood in a sleepy Southern town and the crisis of conscience that rocked it. Set in the mid-1930s.",
+      "cover": "https://covers.openlibrary.org/b/id/8228691-L.jpg",
+      "rating": 4.8,
+      "ownerId": "1",
+      "createdAt": "2024-01-11"
+    },
+    {
+      "id": "3",
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Dystopia",
+      "year": 1949,
+      "description": "Among the seminal texts of the 20th century, Nineteen Eighty-Four is a rare work that grows more haunting as its futuristic purgatory becomes more real.",
+      "cover": "https://covers.openlibrary.org/b/id/8575111-L.jpg",
+      "rating": 4.7,
+      "ownerId": "1",
+      "createdAt": "2024-01-12"
+    },
+    {
+      "id": "4",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "genre": "Romance",
+      "year": 1813,
+      "description": "Since its immediate success in 1813, Pride and Prejudice has remained one of the most popular novels in the English language.",
+      "cover": "https://covers.openlibrary.org/b/id/8739161-L.jpg",
+      "rating": 4.5,
+      "ownerId": "1",
+      "createdAt": "2024-01-13"
+    },
+    {
+      "id": "5",
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "year": 1937,
+      "description": "A homebody hobbit in Middle Earth gets talked into joining a quest with a group of dwarves and a wizard to take back their homeland and treasure from a dragon.",
+      "cover": "https://covers.openlibrary.org/b/id/6979861-L.jpg",
+      "rating": 4.6,
+      "ownerId": "1",
+      "createdAt": "2024-01-14"
+    },
+    {
+      "id": "6",
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "genre": "Sci-Fi",
+      "year": 1965,
+      "description": "Set on the desert planet Arrakis, Dune is the story of the boy Paul Atreides—who would become known as Muad'Dib—and of a great family's ambition to bring to fruition humankind's most ancient and unattainable dream.",
+      "cover": "https://covers.openlibrary.org/b/id/10521270-L.jpg",
+      "rating": 4.4,
+      "ownerId": "1",
+      "createdAt": "2024-01-15"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "bookId": "1",
+      "userId": "1",
+      "userName": "Admin User",
+      "rating": 4,
+      "comment": "A timeless classic with beautiful prose.",
+      "createdAt": "2024-01-20"
+    },
+    {
+      "id": "2",
+      "bookId": "2",
+      "userId": "1",
+      "userName": "Admin User",
+      "rating": 5,
+      "comment": "One of the greatest American novels ever written.",
+      "createdAt": "2024-01-21"
+    }
+  ]
+}
